@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="1.411" timestamp="2021-02-08T13:58:51.838540" hostname="DESKTOP-E1EL5MS"><testcase classname="Users.Vlad.Desktop.shti.test_example" name="test_Info" time="0.142" /><testcase classname="Users.Vlad.Desktop.shti.test_example" name="test_ExtractFromFile" time="0.664" /><testcase classname="Users.Vlad.Desktop.shti.test_example" name="test_AddToFile" time="0.499" /><testcase classname="Users.Vlad.Desktop.shti.test_example" name="test_Crypto" time="0.001"><failure message="AssertionError: I mean for this to fail&#10;assert False">input_file_path = 'C:\\Users\\Vlad\\Desktop\\shti\\Av1tote.mp4'
+mp4box_file_path = 'C:\\Program Files\\GPAC\\mp4box.exe'
+
+    def test_Crypto(input_file_path, mp4box_file_path):
+&gt;     assert False, "I mean for this to fail"
+E     AssertionError: I mean for this to fail
+E     assert False
+
+test_example.py:83: AssertionError</failure></testcase></testsuite></testsuites>
